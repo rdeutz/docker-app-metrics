@@ -16,4 +16,5 @@ RUN apt-get update \
     && composer global require sebastian/phpcpd \
     && composer global require phploc/phploc \
     && composer global require sebastian/phpdcd \
+    && composer global require laravel/envoy \
     && echo 'export PATH=/usr/local/vendor/bin:$PATH' >> $HOME/.bashrc
