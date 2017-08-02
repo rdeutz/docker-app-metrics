@@ -20,4 +20,4 @@ RUN apt-get update \
     && echo 'export PATH=/usr/local/vendor/bin:$PATH' >> $HOME/.bashrc
 
 
-    COPY config/php.ini /usr/local/etc/php/
+COPY config/php.ini /usr/local/etc/php/
