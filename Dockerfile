@@ -18,3 +18,6 @@ RUN apt-get update \
     && composer global require sebastian/phpdcd \
     && composer global require laravel/envoy \
     && echo 'export PATH=/usr/local/vendor/bin:$PATH' >> $HOME/.bashrc
+
+
+    COPY config/php.ini /usr/local/etc/php/
